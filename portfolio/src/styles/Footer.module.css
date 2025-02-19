@@ -1,0 +1,50 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+.container 
+{
+    width: 40%;
+    position: relative;
+    left: 30%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-top: 1px solid rgb(210, 210, 240);
+    position: absolute;
+    bottom: 0;
+}
+.copyright 
+{
+    display: inline-block;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-size: 20px;
+    color: rgb(90, 90, 150)
+}
+
+.socials 
+{
+    margin-top: 1.5vh;
+    float: right;
+}
+.social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: rgb(90, 90, 150);
+    transition: background-color 0.3s, transform 0.3s;
+    margin-left: 1.5vw;
+    border: 1px solid rgb(90, 90, 150);
+}
+.social a 
+{
+    text-decoration: none;
+    color: rgb(90, 90, 150);
+    font-size: 22px;
+}
+
+.social:hover {
+    transform: scale(1.1);
+}
