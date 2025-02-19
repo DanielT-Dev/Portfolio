@@ -9,9 +9,9 @@
 {
     width: 40%;
     height: 10%;
-    position: absolute;
+    position: relative;
     left: 30%;
-    bottom: 37vh;
+    bottom: -1vh;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 4vh;
     color: rgb(40, 40, 50)
