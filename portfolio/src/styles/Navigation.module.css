@@ -1,0 +1,30 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    width: 33%;
+    position: relative;
+    margin-top: 5vh;
+    margin-bottom: 7.5vh;
+    left: 33%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.container img {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.container button {
+    background: transparent;
+    padding-left: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    float:  right;
+    font-size: 1.5vh;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
