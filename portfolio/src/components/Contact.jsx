@@ -11,16 +11,36 @@ const Contact = () => {
 
       <div className={styles.grid}>
         <div className={styles.grid_item}>
-
+          <h1>
+            Email
+          </h1>
+          <p>
+            danieltrusca1@outlook.com
+          </p>
         </div>
         <div className={styles.grid_item}>
-          
+          <h1>
+            UpWork
+          </h1>
+          <p>
+            example
+          </p>
         </div>
         <div className={styles.grid_item}>
-          
+          <h1>
+            GitHub
+          </h1>
+          <p>
+            example
+          </p>
         </div>
         <div className={styles.grid_item}>
-          
+          <h1>
+            LinkedIn
+          </h1>
+          <p>
+            example
+          </p>
         </div>
       </div>
 
