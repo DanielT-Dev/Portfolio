@@ -9,9 +9,13 @@ const Landing = () => {
         <h1>
             Hello, I am Daniel 👋
         </h1>
+        <h2>
+          A full-stack web developer from Romania based in Cluj-Napoca.
+        </h2>
         <p>
-            I’m a full stack web developer with a passion for building end-to-end digital solutions that are both functional and visually engaging. Proficient in front-end technologies like HTML, CSS, JavaScript (React, Vue.js) and back-end frameworks such as Node.js, Express, and Django, I bring a holistic approach to web development. From designing intuitive user interfaces to developing scalable server-side architectures and managing databases (SQL, MongoDB), I ensure seamless performance and a great user experience across the stack. Whether it’s crafting dynamic web applications, optimizing APIs, or deploying cloud-based solutions, I thrive on turning ideas into reality. Let’s create something impactful together!
+        I am a problem-solver at heart, dedicated to transforming complex challenges into simple, intuitive, and user-friendly experiences. With expertise in modern programming languages and frameworks, I specialize in building dynamic front-end interfaces using JavaScript, TypeScript, React, and Vue.js, while also developing reliable back-end systems with Node.js, Express, MongoDB, and FaunaDB. My goal is to create efficient, reliable, and scalable solutions that deliver exceptional value.
         </p>
+        
         <MoreButton content="More Information"/>
     </div>
   )
