@@ -2,12 +2,15 @@ import React from 'react'
 
 import styles from "../styles/Navigation.module.css"
 
-const Navigation = () => {
+const Navigation = ({ set_page }) => {
   return (
     <div className={styles.container}>
-        <img src="Daniel_logo2.png" />
+        <img 
+          src="Daniel_logo2.png" 
+          onClick={() => set_page("landing")}
+        />
 
-        <button>
+        <button onClick={() => set_page("contact")}>
             Contact
         </button>
         <button>
