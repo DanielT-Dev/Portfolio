@@ -1,6 +1,7 @@
 import React from 'react'
 
 import styles from "../styles/Landing.module.css"
+import Projects from './Projects'
 import MoreButton from '../components/MoreButton'
 
 const Landing = () => {
@@ -17,6 +18,8 @@ const Landing = () => {
         </p>
         
         <MoreButton content="More Information"/>
+
+        <Projects />
     </div>
   )
 }
