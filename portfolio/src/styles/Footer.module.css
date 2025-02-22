@@ -4,6 +4,7 @@
 .container 
 {
     width: 33%;
+    height: 10vh;
     position: relative;
     left: 33%;
     margin-top: 5vh;
@@ -46,4 +47,17 @@
 
 .social:hover {
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px){
+    .container {
+        width: 90%;
+        left: 5%;
+    }
+    .copyright {
+        font-size: 2vh;
+    }
+    .social {
+        scale: 0.8;
+    }
 }

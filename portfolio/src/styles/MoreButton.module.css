@@ -39,3 +39,16 @@
       left: 0.5vw;
     }
   }
+
+@media screen and (max-width: 600px){
+  .container {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 1.4vh;
+    padding-bottom: 1.5vh;
+  }
+  .special {
+    top: -0.05vh;
+    font-size: 1.4vh;
+  }
+}

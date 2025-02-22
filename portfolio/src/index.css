@@ -1,9 +1,10 @@
-.body 
-{
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-}
+html, body {
+    overflow-x: hidden; /* Hide horizontal overflow */
+    width: 100%; /* Ensure full width */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    position: relative; /* Contain absolutely positioned elements */
+  }
 
 .header 
 {
@@ -15,4 +16,9 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 4vh;
     color: rgb(40, 40, 50)
+}
+@media screen and (max-width: 600px){
+    .header {
+        left: 5%;
+    }
 }

@@ -36,3 +36,10 @@
     font-weight: 300;
     color: rgb(70, 100, 120);
 }
+
+@media screen and (max-width: 600px){
+    .container {
+        width: 62%;
+        left: 0;
+    }
+}

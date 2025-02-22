@@ -12,7 +12,7 @@
 }
 
 .container h1 {
-    font-size: 1.25vw;
+    font-size: 2.4vh;
     font-weight: 500;
 }
 .projects_container {
@@ -26,4 +26,16 @@
     width: 160%;
     height: auto;
     margin-left: -30%;
+}
+
+@media screen and (max-width: 600px){
+    .container {
+        width: 100%;
+        left: 0;
+    }
+    .projects_container {
+        grid-template-columns: 100%;
+        margin-left: 0;
+        row-gap: 5vh;
+    }
 }
