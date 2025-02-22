@@ -13,7 +13,7 @@ const Navigation = ({ set_page }) => {
         <button onClick={() => set_page("contact")}>
             Contact
         </button>
-        <button>
+        <button onClick={() => set_page("writing")}>
             Writing
         </button>
         <button>
