@@ -1,0 +1,31 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.container {
+    font-family: "Roboto", serif;
+    height: 100%;
+    cursor: pointer;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-top: 1px solid rgb(210, 210, 240);
+}
+.container:hover {
+    background-color: rgb(245, 245, 250);
+}
+.container h1 {
+    font-size: 2.75vh;
+}
+.container h2{
+    margin-top: -0.25vh;
+    margin-bottom: -0.25vh;
+    color: rgb(100, 110, 125);
+    font-size: 1.6vh;
+    font-weight: 400;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+}
+.container p{
+    letter-spacing: 0.05vh;
+    line-height: 1.5;
+    color: rgb(50, 50, 50);
+    text-align: justify;
+    font-size: 1.9vh;
+}
