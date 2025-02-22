@@ -1,0 +1,38 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container 
+{
+    position: relative;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 25vw;
+    height: 43vh;
+    border-radius: 15px;
+    background-color: rgb(245, 247, 252);
+    cursor: pointer;
+}
+.container:hover {
+    background-color: rgb(238, 242, 246);
+}
+.container img {
+    width: 90%;
+    height: 30vh;
+    margin-top: 2vh;
+    margin-left: 5%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container h1 {
+    padding-left: 5%;
+    font-size: 2.2vh;
+    color: rgb(30, 30, 45);
+}
+.container p {
+    padding-left: 5%;
+    margin-top: -1vh;
+    font-size: 1.9vh;
+    font-weight: 300;
+    color: rgb(70, 100, 120);
+}
