@@ -42,13 +42,13 @@
 
 @media screen and (max-width: 600px){
   .container {
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-top: 1.4vh;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 1vh;
     padding-bottom: 1.5vh;
   }
   .special {
-    top: -0.05vh;
-    font-size: 1.4vh;
+    top: 0.2vh;
+    font-size: 2.2vh;
   }
 }
