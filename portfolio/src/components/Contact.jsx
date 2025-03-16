@@ -32,9 +32,9 @@ const Contact = () => {
           <h1>
             GitHub
           </h1>
-          <p>
+          <a href="https://github.com/DanielT-Dev" target='blank'>
             https://github.com/DanielT-Dev
-          </p>
+          </a>
         </div>
         <div className={styles.grid_item}>
           <h1>
