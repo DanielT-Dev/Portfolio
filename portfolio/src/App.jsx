@@ -1,39 +1,23 @@
-import React, { useState } from 'react'
-
-import Navigation from './components/Navigation'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Landing from './components/Landing'
-import Writing from './components/Writing'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Landing from "./components/Landing";
+import Writing from "./components/Writing";
+import Contact from "./components/Contact";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 const App = () => {
-
-  const [page, set_page] = useState("landing")
-
   return (
     <div>
-      <Navigation set_page={set_page}/>
-      { page === "landing" && <Landing />}
-
-      { page === "writing" && 
-      <>
-        <h1 className="header">
-          Writing
-        </h1>
-        <Writing />
-      </>}
-
-      { page === "contact" && 
-      <>
-        <h1 className="header">
-          Contact
-        </h1>
-        <Contact />
-      </>}
-
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/writing" element={<Writing />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

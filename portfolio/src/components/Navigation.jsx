@@ -2,18 +2,22 @@ import React from 'react'
 
 import styles from "../styles/Navigation.module.css"
 
-const Navigation = ({ set_page }) => {
+import { useNavigate } from 'react-router-dom'
+
+const Navigation = () => {
+  const navigate = useNavigate()
+
   return (
     <div className={styles.container}>
         <img 
           src="Daniel_logo2.png" 
-          onClick={() => set_page("landing")}
+          onClick={() => navigate("/")}
         />
 
-        <button onClick={() => set_page("contact")}>
+        <button onClick={() => navigate("/contact")}>
             Contact
         </button>
-        <button onClick={() => set_page("writing")}>
+        <button onClick={() => navigate("/writing")}>
             Writing
         </button>
         <button>
