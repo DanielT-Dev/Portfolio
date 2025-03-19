@@ -5,6 +5,7 @@ import Writing from "./components/Writing";
 import Contact from "./components/Contact";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import PostTemplate from "./posts/PostTemplate";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/" element={<Landing />} />
         <Route path="/writing" element={<Writing />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/post/:post_id" element={<PostTemplate />} />
       </Routes>
       <Footer />
     </div>
