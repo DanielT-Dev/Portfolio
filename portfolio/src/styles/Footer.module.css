@@ -17,7 +17,7 @@
 {
     display: inline-block;
     font-family: "Atkinson Hyperlegible Mono", serif;
-    font-size: 20px;
+    font-size: 2.25vh;
     color: rgb(90, 90, 150)
 }
 
@@ -30,8 +30,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
+    width: 4.5vh;
+    height: 4.5vh;
     border-radius: 50%;
     text-decoration: none;
     color: rgb(90, 90, 150);
@@ -44,7 +44,7 @@
 {
     text-decoration: none;
     color: rgb(90, 90, 150);
-    font-size: 22px;
+    font-size: 2.5vh;
 }
 
 .social:hover {
