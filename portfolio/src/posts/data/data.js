@@ -15,9 +15,18 @@ const post1 = {
     date: "22 March 2025",
     description: "Exploring the algorithm for finding optimal paths in a graph.",
     tags: ["Graph Theory", "Dijkstra", "Complexity", "Time"],
-    content: {
-
-    }
+    content: [
+        {
+            header: "",
+            paragraph: "",
+            media: false,
+        },
+        {
+            header: "",
+            paragraph: "",
+            media: false,
+        },
+    ]
 }
 const post2 = {
     post_id: 2,

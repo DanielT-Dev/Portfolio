@@ -1,31 +1,71 @@
-/*Google Fonts*/
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .container {
     font-family: "Roboto", serif;
-    height: 100%;
+    height: auto;
     cursor: pointer;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding: 1vh 2vw;
     border-top: 1px solid rgb(210, 210, 240);
 }
+
 .container:hover {
     background-color: rgb(245, 245, 250);
 }
+
 .container h1 {
-    font-size: 2.75vh;
+    font-size: 3.2vh;
 }
-.container h2{
-    margin-top: -0.25vh;
-    margin-bottom: -0.25vh;
+
+.container h2 {
+    margin: 0.5vh 0;
     color: rgb(100, 110, 125);
-    font-size: 1.6vh;
+    font-size: 1.8vh;
     font-weight: 400;
     font-family: "Atkinson Hyperlegible Mono", serif;
 }
-.container p{
-    letter-spacing: 0.06vh;
+
+.container p {
+    letter-spacing: 0.06em;
     line-height: 1.5;
     color: rgb(50, 50, 50);
     text-align: justify;
-    font-size: 1.9vh;
+    font-size: 1.8vh;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 2vh 4vw;
+    }
+
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .container h2 {
+        font-size: 1.4rem;
+    }
+
+    .container p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 3vh 5vw;
+    }
+
+    .container h1 {
+        font-size: 1.8rem;
+    }
+
+    .container h2 {
+        font-size: 1.2rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
 }
