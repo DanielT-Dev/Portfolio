@@ -1,6 +1,5 @@
 {
-    "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
-    ]
-  }
-  
+  "routes": [
+    { "src": "/Portfolio/(.*)", "dest": "/Portfolio/index.html" }
+  ]
+}
