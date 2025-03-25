@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
 
 .container {
-    width: 33%;
+    width: 45%;
     position: relative;
-    left: 33%;
+    left: 27.5%;
     margin-top: 5vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -27,6 +27,72 @@
     font-weight: 500;
     color: rgb(20, 20, 20);
 }
+.container h4 {
+    font-size: 3vh;
+    margin-bottom: 2vh;
+}
+.container p {
+    font-size: 1.7vh;
+    font-weight: 300;
+    color: rgb(60, 60, 60);
+    text-align: justify;
+}
+/*
+.section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+  }
+    */
+
+    .section {
+        box-sizing: border-box;
+        overflow-x: hidden;
+      }
+  
+    .section h4 {
+        font-size: 3vh;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #333;
+      }
+      
+      .section div {
+        font-size: 1.7vh !important;
+        text-align: justify !important;
+        white-space: normal !important;
+        word-wrap: break-word !important;
+        line-height: 1.25;
+        max-width: 100%;
+        box-sizing: border-box;
+        display: block;
+      }
+      
+      
+      .section img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 2vh 0;
+      }
+      .section strong {
+        margin-bottom: 2.5vh !important;
+      }
+      .section li {
+        margin-left: 1vw !important;
+        margin-top: 2.5vh !important;
+      }
+
+      .section ul li::marker {
+        position: relative;
+        top: 100vh;
+        font-weight: bold;
+        font-size: 2.3vh;
+      }
+  
 
 @media screen and (max-width: 600px){
     .container {
@@ -36,5 +102,9 @@
     }
     .container h1 {
         font-size: 4vh;
+    }
+    .section ul li {
+        margin-left: -5vw !important;
+        width: 100%;
     }
 }
