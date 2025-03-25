@@ -21,7 +21,7 @@ const post1 = {
             paragraph: `Dijkstra's algorithm is a graph algorithm used to find the shortest path 
             from a single source node to all other nodes in a weighted graph. It works by exploring 
             the closest unvisited node first, updating distances along the way. `,
-            media: "Graph1.png",
+            media: "/Graph1.png",
         },
         {
             header: "Algorithm Steps",
@@ -77,7 +77,7 @@ const post1 = {
     </li>
   </ol>
   `,
-            media: "Graph1.png",
+            media: "/Graph1.png",
         },
         {
             header: "",
