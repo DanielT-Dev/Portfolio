@@ -1,5 +1,9 @@
 {
-  "routes": [
-    { "src": "/Portfolio/(.*)", "dest": "/Portfolio/index.html" }
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "/",
+      "permanent": false
+    }
   ]
 }
