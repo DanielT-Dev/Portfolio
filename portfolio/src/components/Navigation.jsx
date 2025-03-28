@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <div className={styles.container}>
         <img 
-          src="Daniel_logo2.png" 
+          src="/Daniel_logo2.png" 
           onClick={() => navigate("/")}
         />
 
