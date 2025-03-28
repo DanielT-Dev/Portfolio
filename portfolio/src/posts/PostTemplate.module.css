@@ -74,6 +74,7 @@
       
       .section img {
         margin-left: 10% !important;
+        margin-top: 4vh !important;
         max-width: 80%;
         height: auto;
         display: block;
@@ -105,7 +106,7 @@
         font-size: 4vh;
     }
     .section ul li {
-        margin-left: -5vw !important;
+        margin-left: -3vw !important;
         width: 100%;
     }
     .section img {
