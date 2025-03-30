@@ -1,0 +1,63 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container 
+{
+    width: 100%;
+    position: relative;
+    margin-top: 10vh;
+    padding-top: 2.5vh;
+    padding-bottom: 1vh;
+    border-top: 1px solid rgb(210, 210, 240);
+}
+.container h1 {
+    font-size: 2.4vh;
+    font-weight: 500;
+}
+.container img {
+    width: 8vw;
+    height: 8vw;
+}
+.contest {
+    border-top: 1px solid rgb(210, 210, 240);
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+.info {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.info h2 {
+    width: 100%;
+    padding-top: 2vh;
+    font-size: 1.8vh;
+    color: rgb(50, 50, 50);
+    font-weight: 600;
+}
+.info p {
+    margin-top: -1vh;
+    color: rgb(125, 125, 125);
+    font-size: 1.8vh;
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin-top: 5vh;
+    }
+
+    .container h1 {
+        font-size: 5vw;
+    }
+
+    .container img {
+        width: 22vw;
+        height: 22vw;
+    }
+
+    .info h2, .info p {
+        font-size: 4vw;
+    }
+}

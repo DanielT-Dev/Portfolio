@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
 
 .container {
+    display: flex;
+    flex-direction: column;
     width: 33%;
-    height: 171vh;
     position: relative;
     left: 33%;
     margin-top: 5vh;
@@ -35,7 +36,6 @@
 @media screen and (max-width: 600px){
     .container {
         width: 90%;
-        height: 300vh;
         left: 5%;
     }
     .container h1 {

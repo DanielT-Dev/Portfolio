@@ -3,6 +3,7 @@ import React from 'react'
 import styles from "../styles/Landing.module.css"
 import Projects from './Projects'
 import MoreButton from '../components/MoreButton'
+import Contests from './Contests'
 
 const Landing = () => {
   return (
@@ -19,7 +20,9 @@ const Landing = () => {
         
         <MoreButton content="More Information"/>
 
-        <Projects />
+        <Projects/>
+
+        <Contests/>
     </div>
   )
 }

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 .container {
+    width: 8.5vw;
     display: inline-block;
     margin-top: 1.5vh;
     margin-bottom: 8vh;
@@ -42,9 +43,10 @@
 
 @media screen and (max-width: 600px){
   .container {
+    width: 37.5vw;
     padding-left: 7vw;
     padding-right: 7vw;
-    padding-top: 1vh;
+    padding-top: 0.8vh;
     padding-bottom: 1.5vh;
   }
   .special {

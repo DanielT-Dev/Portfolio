@@ -10,24 +10,32 @@ const Projects = () => {
     {
       name: "Pathfinding Algorithms Visualizer",
       dscription: "A web-based tool that visually demonstrates various pathfinding algorithms (like A*, Dijkstra, and DFS / BFS)",
-      image: "/PAV1.png"
+      image: "/PAV1.png",
+      link: "https://github.com/DanielT-Dev/Pathfinding-Algorithms-Visualizer"
     },
     {
       name: "Project Name",
       dscription: "Some example description",
-      image: "/placeholder1.jpg"
+      image: "/placeholder1.jpg",
+      link: "/",
     },
     {
       name: "Project Name",
       dscription: "Some example description",
-      image: "/placeholder1.jpg"
+      image: "/placeholder1.jpg",
+      link: "/",
     },
     {
       name: "Project Name",
       dscription: "Some example description",
-      image: "/placeholder1.jpg"
+      image: "/placeholder1.jpg",
+      link: "/",
     },
   ]
+
+  const handleRedirect = (url) => {
+    window.open(url, "_blank")
+  };
 
   return (
     <div className={styles.container}>
@@ -39,7 +47,10 @@ const Projects = () => {
         </p>
 
         <div className={styles.projects_container}>
-          {projects.map((project, index) => { return <ProjectCard key={index} project={project}/> })}
+          {projects.map((project, index) => { return <div onClick={() => handleRedirect(project.link)}>
+              <ProjectCard key={index} project={project}/> 
+            </div>
+          })}
         </div>
     </div>
   )
