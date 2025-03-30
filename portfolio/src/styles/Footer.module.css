@@ -7,7 +7,7 @@
     height: 10vh;
     position: relative;
     left: 33%;
-    margin-top: 5vh;
+    margin-top: 15vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
     margin-bottom: 10vh;
@@ -58,6 +58,7 @@
     .container {
         width: 90%;
         left: 5%;
+        margin-top: 25vh;
     }
     .copyright {
         font-size: 2vh;

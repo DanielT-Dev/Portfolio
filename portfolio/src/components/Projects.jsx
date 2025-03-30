@@ -6,7 +6,28 @@ import ProjectCard from './ProjectCard'
 
 const Projects = () => {
 
-  const projects = [1, 2, 3, 4]
+  const projects = [
+    {
+      name: "Pathfinding Algorithms Visualizer",
+      dscription: "A web-based tool that visually demonstrates various pathfinding algorithms (like A*, Dijkstra, and DFS / BFS)",
+      image: "/PAV1.png"
+    },
+    {
+      name: "Project Name",
+      dscription: "Some example description",
+      image: "/placeholder1.jpg"
+    },
+    {
+      name: "Project Name",
+      dscription: "Some example description",
+      image: "/placeholder1.jpg"
+    },
+    {
+      name: "Project Name",
+      dscription: "Some example description",
+      image: "/placeholder1.jpg"
+    },
+  ]
 
   return (
     <div className={styles.container}>
@@ -18,7 +39,7 @@ const Projects = () => {
         </p>
 
         <div className={styles.projects_container}>
-          {projects.map((project, index) => { return <ProjectCard key={index}/> })}
+          {projects.map((project, index) => { return <ProjectCard key={index} project={project}/> })}
         </div>
     </div>
   )

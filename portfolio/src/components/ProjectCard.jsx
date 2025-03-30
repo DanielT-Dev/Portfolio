@@ -2,15 +2,15 @@ import React from 'react'
 
 import styles from "../styles/ProjectCard.module.css"
 
-const ProjectCard = () => {
+const ProjectCard = ({ project }) => {
   return (
     <div className={styles.container}>
-        <img src="placeholder1.jpg" alt="image unavaiable"/>
+        <img src={project.image} alt="image unavaiable"/>
         <h1>
-            Project Name
+            {project.name}
         </h1>
         <p>
-            Some example description
+            {project.dscription}
         </p>
     </div>
   )
