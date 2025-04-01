@@ -14,16 +14,16 @@ const Projects = () => {
       link: "https://github.com/DanielT-Dev/Pathfinding-Algorithms-Visualizer"
     },
     {
-      name: "Project Name",
-      dscription: "Some example description",
-      image: "/placeholder1.jpg",
-      link: "/",
+      name: "Clothify",
+      dscription: "An online e-commerce website for clothing items, featuring a user-friendly interface, secure payments, and efficient product browsing.",
+      image: "/Clothify1.png",
+      link: "https://github.com/DanielT-Dev/Clothify",
     },
     {
-      name: "Project Name",
-      dscription: "Some example description",
-      image: "/placeholder1.jpg",
-      link: "/",
+      name: "Dirreto",
+      dscription: "Dirreto – A project management system designed for teams and organizations to streamline collaboration and task management.",
+      image: "/Dirreto1.png",
+      link: "https://github.com/DanielT-Dev/DirretoV1",
     },
     {
       name: "Project Name",
