@@ -23,7 +23,7 @@ const Contact = () => {
             UpWork
           </h1>
           <p>
-            <a href="https://www.upwork.com/freelancers/~01b4addf9f9fe5676c?mp_source=share" target='blank'>
+            <a href="" target='blank'>
               Daniel Trusca
             </a>
           </p>
