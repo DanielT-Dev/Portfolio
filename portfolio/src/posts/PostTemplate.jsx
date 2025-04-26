@@ -50,7 +50,7 @@ const PostTemplate = () => {
                 style={{ visibility: isVisible ? 'visible' : 'hidden' }}  // Dynamically control visibility
               >
                 <h4>{section.header}</h4>
-                <div dangerouslySetInnerHTML={{ __html: section.paragraph }} />
+                <div className={styles.content} dangerouslySetInnerHTML={{ __html: section.paragraph }} />
                 {section.media && <img src={section.media} />}
               </div>
             )

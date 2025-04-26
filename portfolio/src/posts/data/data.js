@@ -209,4 +209,65 @@ const post4 = {
   ]
 }
 
-export const avaiable_posts = [post1, post2, post3, post4]
+const post5 = {
+  post_id: 5,
+  title: "React.js Re-renders",
+  date: "April 27, 2025",
+  description: "Why Your React Component Updates - and How to Control It",
+  tags: ["React", "Frontend", "Web", "Development", "Web Development", "Coding"],
+  content: [
+    {
+      header: "Context",
+      paragraph:"When working with React, you might notice that components re-render even when you don't expect them to.",
+      media: "",
+    },
+    {
+      header: "",
+      paragraph: "Learning why this happens — and how to control it — is an important step toward writing better and more efficient React applications",
+      media: "/React1.png",
+    },
+    {
+      header: "Why Do React Components Re-render?",
+      paragraph: "In React, a component re-renders when:",
+      media: "",
+    },
+    {
+      header: "",
+      paragraph: `• Its state changes (using useState)
+      <br/> • Its props change (data is recieved from a parent component)
+      <br/> • Its parent component re-renders, causing it to re-render as well.
+      <br/>
+      <br/> Even small changes can trigger a re-render, so it's good to understand when and why it happens.
+      `,
+      media: "",
+    },
+    {
+      header: "How to Optimize Re-renders",
+      paragraph: `Although React is optimized internally, in some cases unnecessary re-renders can affect performance, especially in larger projects.
+      `,
+      media: "",
+    },
+    {
+      header: "",
+      paragraph: `Here are some simple methods that can help: 
+      `,
+      media: "",
+    },
+    {
+      header: "1. React.memo",
+      paragraph: `React.memo is a higher-order component that prevents a functional component from re-rendering unless its props change.
+      `,
+      media: "/useMemo1.png",
+    },
+    {
+      header: "",
+      paragraph: `This is useful for components that receive the same props most of the time.
+      `,
+      media: "",
+    },
+  ]
+}
+
+
+
+export const avaiable_posts = [post1, post2, post3, post4, post5]

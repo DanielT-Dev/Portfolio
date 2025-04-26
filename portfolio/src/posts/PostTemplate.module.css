@@ -31,7 +31,8 @@
     font-size: 3vh;
     margin-bottom: 2vh;
 }
-.container p {
+.content {
+    line-height: 1.5 !important;
     font-size: 1.7vh;
     font-weight: 300;
     color: rgb(60, 60, 60);
