@@ -7,6 +7,10 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import PostTemplate from "./posts/PostTemplate";
 
+// Vercel Analytics
+import { Analytics } from '@vercel/analytics/react';
+
+
 const App = () => {
   return (
     <div>
@@ -18,6 +22,7 @@ const App = () => {
           <Route path="/post/:post_id" element={<PostTemplate />} />
         </Routes>
       <Footer />
+      <Analytics />
     </div>
   );
 };
