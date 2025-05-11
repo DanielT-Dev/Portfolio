@@ -278,7 +278,7 @@ const post6 = {
       {
           header: "",
           paragraph: "",
-          media: "/C_and_C++_1.png",
+          media: "/C_and_Cpp_1.png",
       },
       {
           header: "What is dynamic memory allocation?",
@@ -293,12 +293,12 @@ const post6 = {
       {
           header: "Examples of code in C and in C++",
           paragraph: `Here is a simple example of dynamic memory allocation in C:`,
-          media: "/C_and_C++_example_1.png",
+          media: "/C_and_Cpp_example_1.png",
       },
       {
           header: "",
           paragraph: `And here is a simple example in C++:`,
-          media: "/C_and_C++_example_2.png",
+          media: "/C_and_Cpp_example_2.png",
       },
       {
         header: "",
@@ -313,7 +313,7 @@ const post6 = {
       {
         header: "",
         paragraph: ``,
-        media: "/C_and_C++_2.png",
+        media: "/C_and_Cpp_2.png",
       },
       {
         header: "What is a memory leak?",
@@ -337,17 +337,17 @@ const post6 = {
       {
         header: "Solution",
         paragraph: `For dynamic memory allocation:`,
-        media: "/C_and_C++_example_3.png",
+        media: "/C_and_Cpp_example_3.png",
       },
       {
         header: "",
         paragraph: `For input & output: `,
-        media: "/C_and_C++_example_5.png",
+        media: "/C_and_Cpp_example_5.png",
       },
       {
         header: "",
         paragraph: `For memory deallocation using the free() function:`,
-        media: "/C_and_C++_example_4.png",
+        media: "/C_and_Cpp_example_4.png",
       },
       {
         header: "",
