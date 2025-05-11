@@ -56,6 +56,22 @@ const PostTemplate = () => {
             )
           })
         }
+        <div className={styles.tags_container}>
+          <h3>
+            Related tags
+          </h3>
+          {post.tags.map((tag, index) => {
+            return (
+              <div 
+                key={index}
+                className={styles.tag}
+                style={{ visibility: isVisible ? 'visible' : 'hidden' }}  // Dynamically control visibility
+              >
+                #{tag}
+              </div>
+            )
+          })}  
+        </div>
     </div>
   )
 }

@@ -273,7 +273,7 @@ const post6 = {
   title: "C/C++ - Dynamic Memory Allocation & Memory Leaks",
   date: "May 11, 2025",
   description: "A brief overview of how dynamic memory allocation works in C and C++, along with common causes of memory leaks and tips to prevent them.",
-  tags: ["C", "C++", "Dynamic", "Static", "Memory", "Allocation", "Deallocation", "Memory Leaks"],
+  tags: ["C", "C++", "Dynamic Memory Allocation", "Static Memory Allocation", "Memory", "Allocation", "Deallocation", "Memory Leaks", "malloc()", "free()", "coding"],
   content: [
       {
           header: "",

@@ -38,6 +38,25 @@
     color: rgb(60, 60, 60);
     text-align: justify;
 }
+.tags_container {
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+}
+.tag {
+  min-width: 1vw;
+  text-align: center;
+  display: inline-block;
+  background-color: #f0f4ff;
+  color: #1a2e66;
+  padding: 1vh 2vh;
+  margin: 1vh;
+  border-radius: 20px;
+  font-size: 1.5vh;
+  font-weight: 500;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s ease;
+}
+
 /*
 .section {
     padding: 20px;
