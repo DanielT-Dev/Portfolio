@@ -268,6 +268,92 @@ const post5 = {
   ]
 }
 
-
-
-export const avaiable_posts = [post1, post2, post3, post4, post5]
+const post6 = {
+  post_id: 6,
+  title: "C/C++ - Dynamic Memory Allocation & Memory Leaks",
+  date: "May 11, 2025",
+  description: "A brief overview of how dynamic memory allocation works in C and C++, along with common causes of memory leaks and tips to prevent them.",
+  tags: ["C", "C++", "Dynamic", "Static", "Memory", "Allocation", "Deallocation", "Memory Leaks"],
+  content: [
+      {
+          header: "",
+          paragraph: "",
+          media: "/C and C++ 1.png",
+      },
+      {
+          header: "What is dynamic memory allocation?",
+          paragraph: `Dynamic memory allocation in C and C++ is a feature that allows the programmer to allocate memory at runtime, as needed, rather than at compile time. This means that the amount of memory allocated during program execution can vary depending on the program's requirements. `,
+          media: "",
+      },
+      {
+          header: "Static vs. Dynamic memory allocation?",
+          paragraph: `The main difference between static and dynamic memory allocation is that static memory is allocated at compile time and its size is fixed, while dynamic memory is allocated during program execution and its size can change during the runtime. Additionally, dynamic memory requires the use of special functions like malloc() and free() for memory allocation and deallocation, whereas static memory is automatically handled by the compiler.`,
+          media: "",
+      },
+      {
+          header: "Examples of code in C and in C++",
+          paragraph: `Here is a simple example of dynamic memory allocation in C:`,
+          media: "/C and C++ example 1.png",
+      },
+      {
+          header: "",
+          paragraph: `And here is a simple example in C++:`,
+          media: "/C and C++ example 2.png",
+      },
+      {
+        header: "",
+        paragraph: `<b>What it does:</b>
+        <br/> • Allocates memory for 10 integers on the heap.
+        <br/> • sizeof(int) gives the size (in bytes) of one integer.
+        <br/> • malloc(...) returns a void*, which is typecast to int*.
+        <br/> • ptr now points to the beginning of this newly allocated memory block.
+        `,
+        media: "",
+      },
+      {
+        header: "",
+        paragraph: ``,
+        media: "/C and C++ 2.png",
+      },
+      {
+        header: "What is a memory leak?",
+        paragraph: `A memory leak is a type of programming error that occurs when memory is allocated but not freed up when it is no longer needed. This can happen when programmers forget to use the deallocation function (free() in C, and delete[] in C++) after a memory block has been allocated. This causes the memory to be wasted and eventually leads to the program crashing.`,
+        media: "",
+      },
+      {
+        header: "About malloc(), calloc() and realloc()",
+        paragraph: `In C, malloc, calloc, and realloc are functions used for dynamic memory allocation.
+        <br>
+        <br> • malloc() is used to allocate memory of any size dynamically at runtime.
+        <br> • calloc() is similar to malloc() but it initializes the allocated memory to zero.
+        <br> • realloc() is used to reallocate the size of a memory block previously allocated.`,
+        media: "",
+      },
+      {
+        header: "Coding Exercise",
+        paragraph: `Write a C program that dynamically allocates memory for an integer matrix with m rows and n columns, takes input from the user to fill the matrix, prints the matrix, and then frees the allocated memory.`,
+        media: "",
+      },
+      {
+        header: "Solution",
+        paragraph: `For dynamic memory allocation:`,
+        media: "/C and C++ example 3.png",
+      },
+      {
+        header: "",
+        paragraph: `For input & output: `,
+        media: "/C and C++ example 5.png",
+      },
+      {
+        header: "",
+        paragraph: `For memory deallocation using the free() function:`,
+        media: "/C and C++ example 4.png",
+      },
+      {
+        header: "",
+        paragraph: ``,
+        media: "",
+      },
+  ],
+}
+export const avaiable_posts = [post1, post2, post3, post4, post5, post6]
