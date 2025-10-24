@@ -12,8 +12,8 @@ const Contests = () => {
         },
         {
             name: "💻 \u00A0 \" Olympiad of the Society for Excellence and Performance in Informatics \"",
-            date: "📅 \u00A0 2023, Romania, local",
-            result: "🏆 \u00A0 3rd place",
+            date: "📅 \u00A0 2022-2023, Romania, local",
+            result: "🏆 \u00A0 2nd and 3rd places",
             image: "/OSEPI1.png",
         },
         {
